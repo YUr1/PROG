@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/relativeLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="bottom"
+	android:background="#F8F8F8">
+
+<GridView android:id="@+id/gridview"
+ android:layout_width="fill_parent" 
+ android:layout_weight="1" 
+ android:layout_height="fill_parent"
+ android:columnWidth="90dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+
+    ></GridView>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+   	android:layout_weight="10"
+    >
+<Button android:text="Додати нагадування" android:textSize="30sp"
+android:textColor="#FFFFFF"
+ android:textStyle="bold"
+  android:background="@drawable/shownotedialog" 
+  android:id="@+id/add1" 
+  android:layout_width="fill_parent" 
+  android:layout_marginLeft="7dip" 
+  android:layout_marginRight="7dip" 
+  android:layout_marginBottom="3dip" 
+  android:layout_marginTop="3dip" 
+  android:layout_weight="2"
+   android:layout_height="40dip"></Button>
+</LinearLayout>
+</LinearLayout>
+
+<!-- From: file:/E:/mobile/DrawNotification/app/src/main/res/layout/mainnote.xml -->
