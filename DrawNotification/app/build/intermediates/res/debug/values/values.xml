@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/mobile/DrawNotification/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Left">нагадати</string>
+    <string name="Minut">хвилин</string>
+    <string name="Nodiscr">Немеє опису</string>
+    <string name="Noreminder">Не негадувати</string>
+    <string name="NotTitle">Зверніть увагу на це нагадування</string>
+    <string name="NotifTitle">DrawNotification!</string>
+    <string name="RemindButton">Встановити нагадування</string>
+    <string name="Seconds">секунд</string>
+    <string name="Sound">Sound</string>
+    <string name="Vibration">Vibration</string>
+    <string name="WrongTime">Час було введено неправильно. Нагадування не буде.</string>
+    <string name="app_name">DrawNotification</string>
+    <string name="hint">будь ласка введіть опис, якщо хочите</string>
+    <string name="menu_delete">Видалити</string>
+    <string name="menu_edit">Edit</string>
+</resources>
